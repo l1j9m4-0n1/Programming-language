@@ -22,4 +22,70 @@ Yêu cầu:
 
 >`Scanner sc = new Scanner(System.in);`.
 
+VD:
+
+```java
+String name = sc.next();
+String tenChuoi = "giá_trị_khởi_tạo";
+int age = sc.nextInt();
+double gpa = sc.nextDouble();
+```
+
+> Lớp `Scanner` không cung cấp phương thức để nhập dữ liệu kiểu char, thay vào đó cần nhập dữ liệu kiểu `String` và lấy ra ký tự đầu tiên trong String.
+
+```java
+char c = sc.next().charAt(0);
+```
+
+- Cấu trúc `if else` giống C, Cpp.
+- Vòng lặp giống C, Cpp.
+- Mảng(Array).
+
+```java
+// Mảng một chiều.
+int[] a = new int[10];
+for(int i = 0; i < 10; i++){
+  a[i] = sc.nextInt();
+}
+// Mảng hai chiều.
+int[][] arr = new int[n][m];
+```
+
+- Xâu(String).
+
+```java
+s.charAt(0);
+s.charAt(1);
+s.charAt(2);
+s.charAt(3);
+```
+
+> Phương thức
+
+```java
+1) s.length();
+2) s.charAt(i);
+3) s.replace('3', 'e');
+4) s.toUpperCase();
+   s.toLowerCase();
+5) s.indexOf("learn");
+6) s.startsWith(" ");
+   s.endsWith(" ");
+7) s.split(" ");
+8) s.substring(0, 2);
+```
+
+- Một số phương thức:(Hàm con).
+>Truyền đối số như C, Cpp.
+
+```java
+public class <name>{
+  public static int <name>(int ...){
+    ...
+  }
+  public static void main(String[] args){
+    ...
+  }
+}
+```
 
