@@ -3,7 +3,9 @@
 
 ### 1) Install masm32
 
-[+] https://www.masm32.com/download.htm
+[+] [Library Irvine](https://asmirvine.com/)
+
+[+] [Library masm32](https://www.masm32.com/download.htm)
 
 [+] [Tutorial Install masm32](https://asmdude.wordpress.com/2019/02/15/how-to-install-masm32-on-windows-10/)
 
