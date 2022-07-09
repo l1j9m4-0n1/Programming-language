@@ -11,19 +11,20 @@
 
 ### 2) Setting for masm32 in VS2019
 
-  [1] Build Dependencies.
-    - `masm(.targets, .props)`.
+[1] Build Dependencies.
+- `masm(.targets, .props)`.
+
+[2] Properties/Item Type/Microsoft Macro Assembler.
   
-  [2] Properties/Item Type/Microsoft Macro Assembler.
-  
-  +) Library `Irvine`.
-    - Linker/Addtional Library Directories: `C:\Irvine`.
-    - Input/(in First line): `irvine32.lib;...`.
-    - Microsoft Macro Assembler:\Include Paths: `C:\Irvine`.
++) Library `Irvine`.
+
+- Linker/Addtional Library Directories: `C:\Irvine`.
+- Input/(in First line): `irvine32.lib;...`.
+- Microsoft Macro Assembler:\Include Paths: `C:\Irvine`.
    
-  +) Library `masm32`.
-    - Properties/VC++ Directories:
-      1) External Include Directories: `;C:\masm32`.
++) Library `masm32`.
+- Properties/VC++ Directories:
+>External Include Directories: `;C:\masm32`.
       
 
       
