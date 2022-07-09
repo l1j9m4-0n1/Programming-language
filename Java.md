@@ -16,8 +16,10 @@ System.out.print("125 + 206 = " + (125+206)); // 125 + 206 = 331.
 - Khai báo biến giống C, Cpp.
 - Ép kiểu dữ liệu. `c = (long)a + b`.
 - Nhập xuất.
+
 Yêu cầu: 
 >`import java.until.Scanner;`.
+
 >`Scanner sc = new Scanner(System.in);`.
 
 
