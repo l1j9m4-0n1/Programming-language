@@ -8,5 +8,19 @@
 - Là nền tảng lập trình, chạy trên Microsoft Windows.
 - Không phải là ngôn ngữ lập trình, là nền tảng cho phép các ngôn ngữ khác nhau như C# sử dụng để tạo sản phẩm như viết Web.
 
+### NOTE.
 
+- Chương trình mẫu
+
+```C#
+using System;
+
+namespace HelloWorld {
+    class Program {
+        static void Main(string[] args) {
+            Console.WriteLine("Hello, World!");
+        }
+    }
+}
+```
 
