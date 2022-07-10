@@ -196,8 +196,28 @@ St
 - Hàm con.
 
 ```python
-def <name>(<arguments>):
+# def <name>(<arguments>):
 # không return nghĩa là như hàm void.
+
+def show(s):
+    count_upper = 0
+    count_lower = 0
+    for c in s:
+        if c.isupper():
+            count_upper += 1
+        if c.islower():
+            count_lower += 1
+
+    print("Given string:", s)
+    print("Number of uppercase letters:", count_upper)
+    print("Number of lowercase letters:", count_lower)
+		
+def get_unique_values(lst):
+    answer = []
+    for v in lst:
+        if v not in answer:
+            answer.append(v)
+    return answer
 ```
 
->Note: Python3. VD: b'<string>'. u là chuỗi unicode ; b là biểu thị chuỗi kí tự byte ; r là chuỗi kí tự không thoát ra được @@.
+>Note: Python3. VD: b'<string>'. u là chuỗi unicode ; b là biểu thị chuỗi kí tự byte ; r là chuỗi kí tự không thoát ra được @@. Không có `,` và `;`.
