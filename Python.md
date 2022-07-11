@@ -1,4 +1,5 @@
 # PYTHON
+>Install [Python3 Windows](https://www.python.org/downloads/).
 
 - Các kiểu dữ liệu trong python.
 
