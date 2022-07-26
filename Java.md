@@ -1,5 +1,7 @@
 # JAVA
 >Use `Eclipse` to code Java and install [Java JDK](https://www.oracle.com/java/technologies/downloads/).
+
+>[New Project](https://www.youtube.com/watch?v=uksb46znL58). 
 - In ra màn hình.
 
 ```java
